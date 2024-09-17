@@ -1,6 +1,11 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/003049-d62828-f77f00-fcbf49-eae2b7
+https://coolors.co/
+d62828-Red 
+000814-Black
+f8f9fa-White
+495057-Gray 
 
 *****/
 
@@ -9,9 +14,29 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
-
+    font-family: "Oswald", sans-serif
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Protest Guerrilla", sans-serif;
+}
 
+
+
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead {
+    background-image: url('../img/bg.jpg');
+}
+
+/********************/
+/******* Colors ******/
+/********************/
+.btn-primary {
+    Background: #d62828;
+}
+.btn-primary:hover {
+    background: #000814;
+    border: 2px solid #f8f9fa;
 }
