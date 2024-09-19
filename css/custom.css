@@ -30,13 +30,45 @@ header.masthead {
     background-image: url('../img/bg.jpg');
 }
 
+.masthead h1 {
+    color: #d62828; 
+    text-shadow: 2px 2px 5px white; 
+    font-size: 90px !important; 
+}
+
+.masthead p { 
+    color: white;
+    text-shadow: 1px 1px 5px black; 
+    font-size: 30px !important;
+}
+
 /********************/
 /******* Colors ******/
 /********************/
 .btn-primary {
-    Background: #d62828;
+    background: #d62828;
+    border: 2px solid #f8f9fa;
 }
 .btn-primary:hover {
     background: #000814;
     border: 2px solid #f8f9fa;
+}
+.text-black {
+    color: white !important;
+} 
+hr.divider {
+    background-color: #d62828; 
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #495057 !important;
+}
+
+/********************/
+/******* Nav ******/
+/********************/
+#mainNav.navbar-shrink {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #d62828; 
 }
