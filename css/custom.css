@@ -17,7 +17,8 @@ body, p {
     font-family: "Oswald", sans-serif
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Protest Guerrilla", sans-serif;
 }
 
@@ -64,6 +65,9 @@ hr.divider {
     --bs-bg-opacity: 1;
     background-color: #495057 !important;
 }
+.text-primary {
+    color:#495057 !important
+}
 
 /********************/
 /******* Nav ******/
@@ -72,3 +76,15 @@ hr.divider {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #d62828; 
 }
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link,
+#mainNav.navbar-shrink .navbar-brand {
+    color: #f8f9fa;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link.active {
+        color: #495057 !important;
+        
+        #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+        #mainNav.navbar-shrink .navbar-brand:hover
+        color: #495057; 
+           
