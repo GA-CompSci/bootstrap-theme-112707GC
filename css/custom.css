@@ -44,13 +44,13 @@ header.masthead {
 
 .masthead h1 {
     color: #d62828;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px #f8f9fa;
     font-size: 90px !important;
 }
 
 .masthead p {
     color: white;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 5px #000814;
     font-size: 30px !important;
 }
 
@@ -68,7 +68,7 @@ header.masthead {
 }
 
 .text-black {
-    color: white !important;
+    color: #f8f9fa !important;
 }
 
 hr.divider {
@@ -113,5 +113,5 @@ hr.divider {
 /******* Top 6 ******/
 /********************/
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
-    background: #d62828a1;
+    background: #d6282880;
 }
