@@ -13,12 +13,23 @@ f8f9fa-White
 /********************/
 /******* FONTS ******/
 /********************/
-body, p {
+body,
+p {
     font-family: "Oswald", sans-serif
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-family: "Protest Guerrilla", sans-serif;
 }
 
@@ -32,14 +43,14 @@ header.masthead {
 }
 
 .masthead h1 {
-    color: #d62828; 
-    text-shadow: 2px 2px 5px white; 
-    font-size: 90px !important; 
+    color: #d62828;
+    text-shadow: 2px 2px 5px white;
+    font-size: 90px !important;
 }
 
-.masthead p { 
+.masthead p {
     color: white;
-    text-shadow: 1px 1px 5px black; 
+    text-shadow: 1px 1px 5px black;
     font-size: 30px !important;
 }
 
@@ -50,23 +61,27 @@ header.masthead {
     background: #d62828;
     border: 2px solid #f8f9fa;
 }
+
 .btn-primary:hover {
     background: #000814;
     border: 2px solid #f8f9fa;
 }
+
 .text-black {
     color: white !important;
-} 
+}
+
 hr.divider {
-    background-color: #d62828; 
+    background-color: #d62828;
 }
 
 .bg-primary {
     --bs-bg-opacity: 1;
     background-color: #495057 !important;
 }
+
 .text-primary {
-    color:#495057 !important
+    color: #495057 !important
 }
 
 /********************/
@@ -74,17 +89,29 @@ hr.divider {
 /********************/
 #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #d62828; 
+    background-color: #d62828;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link,
 #mainNav.navbar-shrink .navbar-brand {
     color: #f8f9fa;
-    }
-    #mainNav .navbar-nav .nav-item .nav-link.active {
-        color: #495057 !important;
-        
-        #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
-        #mainNav.navbar-shrink .navbar-brand:hover
-        color: #495057; 
-           
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #495057 !important;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+#mainNav.navbar-shrink .navbar-brand:hover {
+    color: #495057;
+}
+#mainNav.navbar-shrink .navbar-brand:hover {
+    color: #495057 ;
+}
+
+/********************/
+/******* Top 6 ******/
+/********************/
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #d62828a1;
+}
